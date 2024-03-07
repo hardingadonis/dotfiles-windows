@@ -21,6 +21,14 @@
 #            Phật phù hộ, không bao giờ BUG
 #     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+function Check-Is-Admin {
+    $CurrentUser = New-Object Security.Principal.WindowsPrincipal $([Security.Principal.WindowsIdentity]::GetCurrent())
+
+    if (-not $CurrentUser.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)) {
+        Exit
+    }
+}
+
 function Write-Start {
     param($msg)
 
@@ -108,4 +116,7 @@ function DoIt {
     InstallDevTools
 }
 
+#########################
+
+Check-Is-Admin
 DoIt
