@@ -95,6 +95,7 @@ function InstallDevTools {
     choco install powertoys -y
     choco install microsoft-windows-terminal -y
     choco install ngrok -y
+    choco install notepadplusplus -y
 
     Write-Done -msg $msg
 }
