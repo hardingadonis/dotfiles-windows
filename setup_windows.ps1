@@ -21,14 +21,6 @@
 #            Phật phù hộ, không bao giờ BUG
 #     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-function Check-Is-Admin {
-    $CurrentUser = New-Object Security.Principal.WindowsPrincipal $([Security.Principal.WindowsIdentity]::GetCurrent())
-
-    if (-not $CurrentUser.IsInRole([Security.Principal.WindowsBuiltinRole]::Administrator)) {
-        Exit
-    }
-}
-
 function Write-Start {
     param($msg)
 
@@ -118,5 +110,14 @@ function DoIt {
 
 #########################
 
-Check-Is-Admin
+# Check-Is-Admin
+$isAdmin = ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
+
+## If not admin, restart as admin
+if (-not $isAdmin) {
+    Start-Process powershell.exe -ArgumentList "-NoProfile -ExecutionPolicy Bypass -File `"$($MyInvocation.MyCommand.Path)`"" -Verb RunAs
+
+    Exit
+}
+
 DoIt
