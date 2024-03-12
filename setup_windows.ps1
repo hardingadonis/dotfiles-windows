@@ -96,6 +96,7 @@ function InstallDevTools {
     choco install microsoft-windows-terminal -y
     choco install ngrok -y
     choco install notepadplusplus -y
+    choco install heidisql -y
 
     Write-Done -msg $msg
 }
