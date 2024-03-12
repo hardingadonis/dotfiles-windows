@@ -101,11 +101,22 @@ function InstallDevTools {
 }
 
 
+function InstallOffice {
+    $msg = "Office"
+
+    Write-Start -msg $msg
+
+    .\office\setup.exe /configure .\office\configuration.xml
+
+    Write-Done -msg $msg
+}
+
 function DoIt {
     DisableUAC
     InstallChocolatey
     InstallSoftware
     InstallDevTools
+    InstallOffice
 }
 
 #########################
