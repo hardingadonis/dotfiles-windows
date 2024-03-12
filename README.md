@@ -36,4 +36,8 @@
 
 - Run `setup_windows.ps1` to install all the necessary software and tools.
 - Important: Run `setup_windows.ps1` as Administrator.
-- **Note**: You may need to change the execution policy to run the script. Run `Set-ExecutionPolicy Unrestricted -Scope Process` in PowerShell.
+- **Note**: You may need to change the execution policy to run the script. Run:
+
+  ```powershell
+  Set-ExecutionPolicy Unrestricted -Scope Process
+  ```
