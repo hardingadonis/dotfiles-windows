@@ -39,5 +39,5 @@
 - **Note**: You may need to change the execution policy to run the script. Run:
 
   ```powershell
-  Set-ExecutionPolicy Unrestricted -Scope Process
+  Set-ExecutionPolicy RemoteSigned
   ```
