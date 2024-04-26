@@ -88,15 +88,13 @@ function InstallDevTools {
     choco install git -y
     choco install gitkraken -y
     choco install vscode -y
-    choco install intellijidea-community -y
-    choco install temurin21 -y
     choco install nvm -y
     choco install adb -y
     choco install powertoys -y
     choco install microsoft-windows-terminal -y
     choco install ngrok -y
     choco install notepadplusplus -y
-    choco install heidisql -y
+    choco install dbeaver -y
 
     Write-Done -msg $msg
 }
