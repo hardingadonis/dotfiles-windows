@@ -86,7 +86,7 @@ function InstallDevTools {
     Write-Start -msg $msg
 
     choco install git -y
-    choco install gitkraken -y
+    choco install sourcetree -y
     choco install vscode -y
     choco install nvm -y
     choco install adb -y
