@@ -72,7 +72,6 @@ function InstallSoftware {
     choco install vlc -y
     choco install discord -y
     choco install obsidian -y
-    choco install zalopc -y
     choco install choco-cleaner -y
     choco install crystaldiskinfo -y
 
