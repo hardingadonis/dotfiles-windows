@@ -66,7 +66,6 @@ function InstallSoftware {
     Write-Start -msg $msg
 
     choco install googlechrome - y
-    choco install drivereasyfree -y
     choco install obs-studio -y
     choco install winrar -y
     choco install revo-uninstaller -y
