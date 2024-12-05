@@ -74,6 +74,8 @@ function InstallSoftware {
     choco install obsidian -y
     choco install choco-cleaner -y
     choco install crystaldiskinfo -y
+    choco install hwmonitor -y
+    choco install cpu-z -y
 
     Write-Done -msg $msg
 }
@@ -87,12 +89,12 @@ function InstallDevTools {
     choco install gitkraken -y
     choco install vscode -y
     choco install nvm -y
-    choco install adb -y
     choco install powertoys -y
     choco install microsoft-windows-terminal -y
     choco install ngrok -y
     choco install notepadplusplus -y
     choco install dbeaver -y
+    choco install virtualbox -y
 
     Write-Done -msg $msg
 }
