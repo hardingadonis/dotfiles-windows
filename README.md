@@ -41,3 +41,10 @@
   ```powershell
   Set-ExecutionPolicy RemoteSigned
   ```
+## Active Office
+
+- Copy & paste in PowerShell
+
+  ```powershell
+  irm https://get.activated.win | iex
+  ```
