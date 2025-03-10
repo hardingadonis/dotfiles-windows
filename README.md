@@ -38,7 +38,7 @@
 
 ## Active Windows or Office
 
-- Copy & paste in PowerShell
+- Copy & paste in PowerShell:
 
   ```powershell
   irm https://get.activated.win | iex
