@@ -21,3 +21,8 @@ if (-not (Get-Command scoop -ErrorAction SilentlyContinue)) {
 } else {
     Write-Output "scoop is already installed"
 }
+
+# Install git for scoop
+scoop install git
+
+# Add scoop buckets
