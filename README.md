@@ -1,50 +1,49 @@
-# dotfiles
+# dotfiles for Windows
 
 ![GitHub contributors](https://img.shields.io/github/contributors/hardingadonis/dotfiles)
 ![GitHub top language](https://img.shields.io/github/languages/top/hardingadonis/dotfiles)
 ![GitHub repo size](https://img.shields.io/github/repo-size/hardingadonis/dotfiles)
 ![GitHub License](https://img.shields.io/github/license/hardingadonis/dotfiles)
 
-> My dotfiles
+> My dotfiles for Windows
 
 ```powershell
-#                       _oo0oo_
-#                      o8888888o
-#                      88" . "88
-#                      (| -_- |)
-#                      0\  =  /0
-#                    ___/`---'\___
-#                  .' \\|     |# '.
-#                 / \\|||  :  |||# \
-#                / _||||| -:- |||||- \
-#               |   | \\\  -  #/ |   |
-#               | \_|  ''\---/''  |_/ |
-#               \  .-\__  '-'  ___/-. /
-#             ___'. .'  /--.--\  `. .'___
-#          ."" '<  `.___\_<|>_/___.' >' "".
-#         | | :  `- \`.;`\ _ /`;.`/ - ` : | |
-#         \  \ `_.   \_ __\ /__ _/   .-` /  /
-#     =====`-.____`.___ \_____/___.-`___.-'=====
-#                       `=---='
-#
-#     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-#            Phật phù hộ, không bao giờ BUG
-#     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+⣿⣿⣿⠟⠛⠛⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⢋⣩⣉⢻⣿⣿⣿
+⣿⣿⣿⠀⣿⣶⣕⣈⠹⠿⠿⠿⠿⠟⠛⣛⢋⣰⠣⣿⣿⠀⣿⣿⣿
+⣿⣿⣿⡀⣿⣿⣿⣧⢻⣿⣶⣷⣿⣿⣿⣿⣿⣿⠿⠶⡝⠀⣿⣿⣿
+⣿⣿⣿⣷⠘⣿⣿⣿⢏⣿⣿⣋⣀⣈⣻⣿⣿⣷⣤⣤⣿⡐⢿⣿⣿
+⣿⣿⣿⣿⣆⢩⣝⣫⣾⣿⣿⣿⣿⡟⠿⠿⠦⠀⠸⠿⣻⣿⡄⢻⣿
+⣿⣿⣿⣿⣿⡄⢻⣿⣿⣿⣿⣿⣿⣿⣿⣶⣶⣾⣿⣿⣿⣿⠇⣼⣿
+⣿⣿⣿⣿⣿⣿⡄⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⣰⣿⣿
+⣿⣿⣿⣿⣿⣿⠇⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢀⣿⣿⣿
+⣿⣿⣿⣿⣿⠏⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢸⣿⣿⣿
+⣿⣿⣿⣿⠟⣰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠀⣿⣿⣿
+⣿⣿⣿⠋⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⣿⣿⣿
+⣿⣿⠋⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢸⣿⣿
 ```
+
+## PC Information
+
+- **Laptop**: MSI Modern 15 A5M 239VN
+- **OS**: Windows 11
 
 ## For Windows
 
-- Run `setup_windows.ps1` to install all the necessary software and tools.
-- Important: Run `setup_windows.ps1` as Administrator.
+- Run `setup.ps1` to install all the necessary software and tools.
 - **Note**: You may need to change the execution policy to run the script. Run:
 
   ```powershell
-  Set-ExecutionPolicy RemoteSigned
+  Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
   ```
-## Active Office
+
+## Active Windows or Office
 
 - Copy & paste in PowerShell
 
   ```powershell
   irm https://get.activated.win | iex
   ```
+
+## License
+
+- [dotfiles-windows](https://github.com/hardingadonis/dotfiles-windows) is licensed under the [MIT License](LICENSE).
