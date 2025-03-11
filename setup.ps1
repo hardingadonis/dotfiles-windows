@@ -25,4 +25,6 @@ Write-Host "⣿⣿⣿⠋⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄�
 Write-Host "⣿⣿⠋⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢸⣿⣿"
 
 & "./scoop/install.ps1"
-& "./software/install-common-package.ps1"
+& "./softwares/install-common-packages.ps1"
+& "./softwares/install-normal-softwares.ps1"
+& "./softwares/install-dev-tools.ps1"
