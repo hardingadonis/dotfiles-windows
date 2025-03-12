@@ -22,11 +22,9 @@ if (-not (Get-Command scoop -ErrorAction SilentlyContinue)) {
     Write-Output "scoop is already installed"
 }
 
-# Load the function from utils.ps1
-. "$PSScriptRoot/utils.ps1"
-
 # Install git for scoop
-Install-Package -packageName "git"
+scoop install git-lfs
+scoop install main/git-lfs
 
 # Add scoop buckets
 scoop bucket add extras
