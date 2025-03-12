@@ -40,5 +40,11 @@ scoop install extras/powertoys
 ## Steam
 scoop install games/steam
 
+## Revo Uninstaller
+scoop install extras/revo-uninstaller
+
+## Telegram
+scoop install extras/telegram
+
 ## VLC
 scoop install extras/vlc
