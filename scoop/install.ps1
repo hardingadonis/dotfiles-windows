@@ -30,3 +30,4 @@ scoop install main/git-lfs
 scoop bucket add extras
 scoop bucket add nonportable
 scoop bucket add games
+scoop bucket add versions
