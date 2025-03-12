@@ -22,6 +22,9 @@ scoop install versions/dotnet-sdk-lts
 ## GitKraken
 scoop install extras/gitkraken
 
+## Godot Engine (C#)
+scoop install extras/godot-mono
+
 ## MSYS2
 scoop install main/msys2
 
