@@ -48,3 +48,6 @@ scoop install extras/telegram
 
 ## VLC
 scoop install extras/vlc
+
+## WinRAR
+scoop install extras/winrar
