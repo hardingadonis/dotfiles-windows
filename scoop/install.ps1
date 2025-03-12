@@ -30,3 +30,5 @@ Install-Package -packageName "git"
 
 # Add scoop buckets
 scoop bucket add extras
+scoop bucket add nonportable
+scoop bucket add games
