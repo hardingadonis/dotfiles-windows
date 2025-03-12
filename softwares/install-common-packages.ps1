@@ -11,8 +11,5 @@
 #  ⣿⣿⣿⠋⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡄⣿⣿⣿
 #  ⣿⣿⠋⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⢸⣿⣿
 
-# Load the function from utils.ps1
-. "$PSScriptRoot/../scoop/utils.ps1"
-
 # Install common packages
-Install-Package -packageName "extras/vcredist"
+scoop install extras/vcredist
