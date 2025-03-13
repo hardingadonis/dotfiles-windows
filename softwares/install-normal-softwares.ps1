@@ -17,7 +17,7 @@
 scoop install extras/audacity
 
 ## CrystalDiskInfo
-scoop install extras/crystaldiskmark
+scoop install extras/crystaldiskinfo
 
 ## Discord
 scoop install extras/discord
@@ -31,9 +31,6 @@ scoop install extras/obs-studio
 ## Obsidian
 scoop install extras/obsidian
 
-## VirtualBox
-scoop install nonportable/virtualbox-np
-
 ## PowerToys
 scoop install extras/powertoys
 
@@ -41,7 +38,7 @@ scoop install extras/powertoys
 scoop install games/steam
 
 ## Revo Uninstaller
-scoop install extras/revo-uninstaller
+scoop install extras/revouninstaller
 
 ## Telegram
 scoop install extras/telegram
