@@ -36,6 +36,10 @@
   Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
   ```
 
+## My note
+
+- Check [NOTE.md](NOTE.md) for more information.
+
 ## Active Windows or Office
 
 - Copy & paste in PowerShell:
