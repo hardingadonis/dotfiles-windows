@@ -13,6 +13,9 @@
 
 # Install dev tools
 
+## fvm
+scoop install extras/fvm
+
 ## GitKraken
 scoop install extras/gitkraken
 

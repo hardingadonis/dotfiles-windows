@@ -49,3 +49,9 @@
 
   - `<path-1>`: The installation directory of Docker Desktop.
   - `<path-2>`: The folder where contain a Linux VM that run Docker Engine.
+
+## Update all packages from Scoop
+
+```bash
+scoop update *
+```
